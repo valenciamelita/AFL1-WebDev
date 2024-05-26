@@ -1,0 +1,189 @@
+<!-- Nama: Valencia Melita Christy
+NIM: 0706022210007 -->
+
+<html>
+<title>Soal AFL-1 Nomor 4</title>
+<style>
+    body {
+        font-family: Calibri;
+        font-size: 16px;
+        color: navy;
+    }
+
+    h2{
+        text-decoration: underline;
+        margin-left: 80px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    input{
+        margin-bottom: 10px;
+        border: white solid 3px;
+        box-shadow: 0 0 4px #a9a9a9;
+        border-radius: 3px;
+        background-color:#FEEFDC;
+        height: 30px;
+    }
+    ::placeholder {
+    color: rgb(188, 187, 187);
+    opacity: 1; /* Firefox */
+    }
+
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="number"]{
+        width: 210;
+    }
+
+    select{
+        color: darkblue;
+        width: 45px;
+        border-color: gray;
+        height: 25px;
+    }
+
+
+    input[type="radio"]{
+        box-shadow: 0 0 0;
+        display: inline;
+        accent-color: black;
+    }
+
+    .pilih {
+    display: inline-block;
+    vertical-align: middle;
+    }
+
+    .pilih label {
+    display: inline;
+    margin-right: 0px;
+    vertical-align: 10px;
+    }
+
+    label[for=hobby]{
+        padding-top: 10px;
+        vertical-align: middle;
+    }
+
+    .cek {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 155px;
+    margin-top: -20px;
+
+    }
+
+    input[type="checkbox"]{
+        margin-bottom: 0px;
+        padding: 0;
+        margin-top: 0;
+        height: 20;
+        margin-left: 7px;
+    }
+
+    .cek input[type="checkbox"],
+    .cek label {
+        box-shadow: 0 0 0;
+        display: inline;
+    }
+
+    .cek label { 
+    vertical-align: 5px; 
+    }
+
+    label {
+    display: inline-block;
+    width: 150px; 
+    text-align: right; 
+    margin-right: 10px; 
+    }
+    
+    input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+    }
+
+    button{
+        margin-bottom: 10px;
+        border: white solid 4px;
+        box-shadow: 0 0 4px #a9a9a9;
+        border-radius: 3px;
+        background-color:#FEEFDC;
+        height: 30px;
+        font-family: 'calibri';
+        font-weight: 500;
+        color: navy;
+        margin-left: 160;
+        margin-top: 10;
+    }
+
+</style>
+</head>
+<body>
+    <form action="handler.php" method="post">
+   <h2>Registration Form</h2> 
+    <br />
+
+     <div class="form-group">
+        <label for="text">Nama Lengkap :</label>
+        <input type="text" id="text" name="text" placeholder="John Doe">
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Your Password">
+    </div>
+
+    <div class="form-group">
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Your Password">
+    </div>
+
+    <div class="form-group">
+        <label for="sex">Sex:</label>
+        <div class="pilih">
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male" id="male"> Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" id="female"> Female</label>
+    </div>
+        </div>
+    <div class="form-group">
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+    </div>
+
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" name="age" min="0" max="100" placeholder="Your age">
+    </div>
+
+    <div class="form-group">
+        <label for="pendidikan">Pendidikan:</label>
+        <select name="pendidikan" id="pendidikan">
+            <option value="D3">D3</option>
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="hobby">Hobby:</label><br>
+        <div class="cek">
+            <input type="checkbox" id="makan" name="makan" value="makan">
+            <label for="makan">Makan</label> <br>
+            <input type="checkbox" id="nonton" name="nonton" value="nonton">
+            <label for="nonton">Nonton</label> <br>
+            <input type="checkbox" id="tidur" name="tidur" value="tidur">
+            <label for="tidur">Tidur</label>
+        </div>
+    </div>
+
+    <div class="button">
+        <button type="register">Register</button>
+    </div>
+    </form>
+</body>
+</html>

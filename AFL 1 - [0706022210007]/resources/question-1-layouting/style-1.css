@@ -1,0 +1,333 @@
+/*Nama: Valencia Melita Christy
+NIM: 0706022210007*/
+
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:top center;
+}
+html {
+	padding:0;
+	margin:0;
+}
+li.bg, .bg {
+	clear:both;
+	border-bottom:1px dashed #818181;
+	padding:0;
+	margin:10px 0;
+	background:none;
+	list-style:none;
+}
+p.clr, .clr {
+	clear:both;
+	padding:0;
+	margin:0;
+}
+.main {
+	margin:0 auto;
+	padding:0;
+}
+.header_resize {
+	margin:0 auto;
+	padding:0;
+	width:920px;
+}
+.header {
+	margin:0;
+	padding:0;
+	background:url(images/header_bg.gif) top repeat-x;
+}
+.logo {
+	width:920px;
+	margin:0 auto;
+	padding:0;
+	float:left;
+	padding: 50px 0 ;
+	background-image: url(images/logo.png) ;
+	background-repeat: no-repeat;
+	background-position:top;
+	background-position-y: 5%;
+	font-family: Arial;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 7px 8px; 
+    display: inline-block; 
+	font-size: 13px;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu ul {
+    padding-top: 15px;
+}
+
+.menu ul li a:hover {
+    background-image: url(images/r_menu.gif);
+    background-size: cover;
+}
+
+.menu {
+    margin-top: -20px;
+	font-family: Arial;
+}
+
+h1 a {
+
+	text-decoration: none;
+    color: white;
+	font-weight: normal;
+}
+
+h1 a span {
+	text-decoration: none;
+    color: #fee800;
+	font-weight: bold;
+}
+
+.logo{
+	text-align: center;
+	
+}
+
+h1 small{
+	font-size: 10px;
+}
+
+.body{
+	border-top: 10px solid white;
+	background-image: url(images/body_bg.gif);
+	background-repeat: repeat-x;
+	padding: 10px 150px;
+}
+
+.left {
+	font-family: Arial;
+	margin-top: 20px;
+	margin-right: 60px;
+	padding:0;
+}
+
+.floated {
+	float:left;
+    margin-right: 15px; 
+}
+
+.left h2{
+	display: flex;
+	font-weight: normal;
+	line-height: 10px;
+	margin-top: 15px;
+	font-size:33px;
+}
+
+.left h2 span{
+	font-weight: normal;
+	color: #acb205;
+	margin-right: 7px;
+	margin-bottom: 10px;
+	font-size:33px;
+}
+
+.left p{
+	font-family:'Arial';
+	line-height: 20px;
+	font-size: 13.5px;
+	word-spacing: -1px;
+	width: 660px;
+}
+
+.left p strong{
+	display: block;
+	margin-right: -20px;
+}
+
+.left img{
+	float: left;
+}
+
+.left p:nth-of-type(2) strong {
+	margin-bottom: -17px;
+}
+
+.left h2:nth-of-type(2)
+{
+	margin-top:30px;
+}
+
+.body_resize{
+	display: flex;
+}
+
+.right{
+	font-family: Arial;
+}
+
+.left a {
+	color: #acb205;
+}
+
+.bg{
+	padding: 5px;
+	margin: 20px;
+}
+
+.right ul li{
+	list-style-type: none ;
+	margin-bottom: 10px;
+}
+.right li a {
+    text-decoration: none;
+    color: gray;
+    padding-left: 7px;
+	font-size: 14px;
+}
+
+.right li::before{ 
+	content: url(images/ul_li.gif);
+
+} 
+.right h2{
+	display: flex;
+	font-weight: normal;
+	line-height: 10px;
+	margin-top: 40px;
+	font-size:33px;
+}
+
+.right h2 span{
+	font-weight: normal;
+	color: #acb205;
+	margin-right: 7px;
+	margin-bottom: 10px;
+	font-size:33px;
+}
+
+.search {
+	position: relative;
+	
+}
+
+.search .keywords{
+	font-weight: bold;
+	height: 20px;
+	font-size: 10px;
+	width: 200px;
+}
+  
+.search form {
+	position: relative;
+	display: inline-block;
+}
+
+input[name="q"]{
+	border: 1.5px solid lightgray;
+}
+  
+.search .button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 1px;
+	margin-right: 1px;
+	width: 25px; 
+	height: 23px; 
+	background-position: left;
+	background-size: cover;
+}
+
+.FBG{
+	font-family: Arial;
+	width: 1000px;
+	background-image: url('images/footer_bg.gif');
+    background-size: 10px 3px; 
+	margin-left: 150px;
+	margin-right: 150px;
+	height: 3px;
+}
+
+.FBG_resize{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; 
+	padding: 10px 0px 10px 0px;
+}
+
+.blok:nth-child(1) {
+    grid-column: 1;
+	width: 330px;
+	margin-right: 30px;
+}
+
+.blok:nth-child(1) p{
+	font-size: 15.8px;
+}
+
+.blok:nth-child(1) img{
+	float: left;
+	margin-right: 3px;
+	word-spacing: -0.2px;
+}
+
+.blok:nth-child(3) img{
+	margin: 3px;
+}
+
+.blok h2 {
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+.blok:nth-child(2) {
+    grid-column: 2;
+	width: 350px;
+	margin-right: 30px;
+}
+
+.blok:nth-child(2) p{
+	margin-top: -5px;
+}
+
+.blok:nth-child(2) h2 span{
+	color: #acb205;
+}
+
+.blok:nth-child(3) {
+    grid-column: 3;
+	width: 250px;
+}
+
+.blok:nth-child(3) h2{
+	margin-bottom: 12px;
+}
+
+
+.clr{
+	background-repeat: repeat-y;
+}
+
+.blok img{
+	float: left;
+}
+
+.footer{
+	margin-top: 300px;
+	font-family: Arial;
+	width: 1000px;
+	background-image: url('images/footer_bg.gif');
+    background-size: 5px 3px; 
+	margin-left: 150px;
+	margin-right: 150px;
+	height: 0.5px;
+	font-size: 10px;
+	padding-top: 5px;
+
+}
+

@@ -1,0 +1,77 @@
+/*Nama: Valencia Melita Christy
+NIM: 0706022210007*/
+
+@font-face {
+    font-family:stroke;
+    src:url('Stroke-Regular.otf');
+}
+
+body{
+	background-color: transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    background-size: auto, cover;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+    backdrop-filter: contrast(60%) brightness(140%);
+}
+
+.menu {
+    font-family: stroke;
+    font-size: 20px;
+    border: 2px solid #533A02;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(125, 120, 22, 0.402);
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+    animation: firstAnimation 4s ease-in-out;
+    transition: border 1s ease, color 1s ease, padding-left 1s ease, background-color 1s ease, text-shadow 1s ease;
+}
+
+h1{
+    padding-top: 20px;
+    padding-left: 30px;
+    text-shadow: 2px 2px 4px grey;
+    font-size: 40px;
+}
+
+@keyframes firstAnimation{
+    0% {
+        opacity: 1; 
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0;
+        transform: scale(1.5);
+        color: white;
+
+    }
+    100%{
+        opacity: 1; 
+        transform: scale(1);
+    }
+}
+#menu1 { animation-delay: 0.8s; }
+#menu2 { animation-delay: 1.6s; }
+#menu3 { animation-delay: 2.4s; }
+#menu4 { animation-delay: 3.2s; }
+#menu5 { animation-delay: 4s; }
+
+.menu:hover{
+    border: #fff 2px solid;
+    color: #fff;
+    padding-left: 20px;
+    background-color: #98602F;
+    text-shadow: 0 0 10px #000;
+}
+
+
